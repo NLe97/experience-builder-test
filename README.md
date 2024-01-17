@@ -10,4 +10,6 @@
 * Log into Contentful
 * Navigate to Space and Environment you want to use Experience Builder in.
 * Go to the Content model tab. Click Add new and select Experience Type from the drop-down. The “Add a new Experience Type” window is displayed.
+* Fill Out Required Fields
+* In the Preview Setup Portion of the Experience Type provide the preview URL, in this case we're using local host mine is: http://localhost:5173 (no tokens use for this demo)
 
