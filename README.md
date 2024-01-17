@@ -1,6 +1,6 @@
 # experience-builder-test
 * Set Up Documentation here: https://www.contentful.com/developers/docs/tutorials/general/experience-builder/
-* Please note, currently in Alpha but I had the feature enable for my space ID:4163m42u0lcs
+* Please note, currently in Alpha but I had the feature enable for my space ID: 4163m42u0lcs
 
 ### Two Main Stages to set this up:
 * Set up in Contentful Web App
