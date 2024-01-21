@@ -11,5 +11,19 @@
 * Navigate to Space and Environment you want to use Experience Builder in.
 * Go to the Content model tab. Click Add new and select Experience Type from the drop-down. The “Add a new Experience Type” window is displayed.
 * Fill Out Required Fields
-* In the Preview Setup Portion of the Experience Type provide the preview URL, in this case we're using local host mine is: http://localhost:5173 (no tokens use for this demo)
+* In the Preview Setup Portion of the Experience Type provide the preview URL, in this case we're using local host mine is: http://localhost:5173 (no tokens used for this demo)
+* **Note** The experience type is created and automatically configured with its default fields. Some of them are intentionally disabled for editing or deleting, to ensure a working integration. "Title" and "Slug" fields are optional and can be edited. Localization is optional for both fields.
+
+## Project Set Up
+* In this demo, git clone this repo to your local PC
+* Open your terminal > switch to directory of your choice > Ex: cd Desktop/
+* then git clone https://github.com/NLe97/experience-builder-test.git
+* After cloning the repo > cd experience-builder-test/
+* Open the terminal in vscode > type npm i > this is to include the sdk any dependencies needed to run this project
+* **Note** you still need to create a 
+
+
+
+
+
 
