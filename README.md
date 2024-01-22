@@ -20,7 +20,7 @@
 * then git clone https://github.com/NLe97/experience-builder-test.git
 * After cloning the repo > cd experience-builder-test/
 * Open the terminal in vscode > type npm i > this is to include the sdk any dependencies needed to run this project
-* **Note** you still need to create a 
+* **Note** you still need to create a env.tsx file in the src file 
 
 
 
