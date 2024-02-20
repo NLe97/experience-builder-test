@@ -6,10 +6,15 @@ import {
 } from "@contentful/experience-builder";
 import { Image } from "./Image";
 import { imageComponentDefinition } from "../componentDefinitions/image";
+import BasicList from "./BasicLists";
+import { basiclistsComponentDefinition } from "../componentDefinitions/BasicLists";
+import FormExample from "./Form";
+
 import { environment } from "../env";
 
 // we surfaced the client as the first step to give you more freedom over data fetching, which we are currently exploring
 import { createClient } from "contentful";
+import formComponentDefinition from "../componentDefinitions/Form";
 
 const client = createClient({
   space: environment.CTFL_SPACE_ID,
@@ -21,10 +26,17 @@ const client = createClient({
 });
 
 defineComponents([{ component: Image, definition: imageComponentDefinition }]);
+defineComponents([
+  { component: BasicList, definition: basiclistsComponentDefinition },
+]);
+defineComponents([
+  { component: FormExample, definition: formComponentDefinition },
+]);
+
 const Experience = () => {
   // replace with your router;
   const localeCode = "en-US";
-  const slug = "listGroup";
+  const slug = "form";
   const experienceTypeId: any = "benEb";
   // eslint-disable-next-line no-use-before-define
 
